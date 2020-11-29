@@ -54,14 +54,12 @@ function SignIn() {
 		<>
 			<div>
 				<div>
-					<span>
-						<img
-							className="google-image"
-							alt="Google login"
-							src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png"
-						/>
-					</span>
-					<button className="google-button" onClick={signInWithGoogle}>Sign in with Google</button>
+					<button className="loginBtn loginBtn--google" onClick={signInWithGoogle}>
+						Sign in using Google
+					</button>
+					<button className="loginBtn loginBtn--facebook">
+						Sign in using Google
+					</button>
 				</div>
 				<p>Do not violate the community guidelines or you will be banned for life!</p>
 			</div>
@@ -72,7 +70,7 @@ function SignIn() {
 
 function SignOut() {
 	return auth.currentUser && (
-		<button className="sign-out" onClick={() => auth.signOut()}>Sign Out</button>
+		<button className="logoutBtn" onClick={() => auth.signOut()}>Sign Out</button>
 	)
 }
 
@@ -114,9 +112,9 @@ function ChatRoom() {
 
 		<form onSubmit={sendMessage}>
 
-			<input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="say something nice" />
+			<input className="placeholder-view" value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="say something nice" />
 
-			<button type="submit" disabled={!formValue}>🕊️</button>
+			<button className="sendBtn" type="submit" disabled={!formValue}>Send</button>
 
 		</form>
 	</>)
