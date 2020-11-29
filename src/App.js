@@ -58,7 +58,7 @@ function SignIn() {
 						Sign in using Google
 					</button>
 					<button className="loginBtn loginBtn--facebook">
-						Sign in using Google
+						Sign in using facebook
 					</button>
 				</div>
 				<p>Do not violate the community guidelines or you will be banned for life!</p>
