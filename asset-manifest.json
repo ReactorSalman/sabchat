@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sabchat/static/css/main.c6d062c4.chunk.css",
+    "main.js": "/sabchat/static/js/main.57bca13b.chunk.js",
+    "main.js.map": "/sabchat/static/js/main.57bca13b.chunk.js.map",
+    "runtime-main.js": "/sabchat/static/js/runtime-main.a8debe25.js",
+    "runtime-main.js.map": "/sabchat/static/js/runtime-main.a8debe25.js.map",
+    "static/js/2.381f2006.chunk.js": "/sabchat/static/js/2.381f2006.chunk.js",
+    "static/js/2.381f2006.chunk.js.map": "/sabchat/static/js/2.381f2006.chunk.js.map",
+    "static/js/3.eb1e256d.chunk.js": "/sabchat/static/js/3.eb1e256d.chunk.js",
+    "static/js/3.eb1e256d.chunk.js.map": "/sabchat/static/js/3.eb1e256d.chunk.js.map",
+    "index.html": "/sabchat/index.html",
+    "static/css/main.c6d062c4.chunk.css.map": "/sabchat/static/css/main.c6d062c4.chunk.css.map",
+    "static/js/2.381f2006.chunk.js.LICENSE.txt": "/sabchat/static/js/2.381f2006.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a8debe25.js",
+    "static/js/2.381f2006.chunk.js",
+    "static/css/main.c6d062c4.chunk.css",
+    "static/js/main.57bca13b.chunk.js"
+  ]
+}
