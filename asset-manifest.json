@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sabchat/static/css/main.c6d062c4.chunk.css",
-    "main.js": "/sabchat/static/js/main.57bca13b.chunk.js",
-    "main.js.map": "/sabchat/static/js/main.57bca13b.chunk.js.map",
+    "main.js": "/sabchat/static/js/main.807a4b35.chunk.js",
+    "main.js.map": "/sabchat/static/js/main.807a4b35.chunk.js.map",
     "runtime-main.js": "/sabchat/static/js/runtime-main.a8debe25.js",
     "runtime-main.js.map": "/sabchat/static/js/runtime-main.a8debe25.js.map",
     "static/js/2.381f2006.chunk.js": "/sabchat/static/js/2.381f2006.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a8debe25.js",
     "static/js/2.381f2006.chunk.js",
     "static/css/main.c6d062c4.chunk.css",
-    "static/js/main.57bca13b.chunk.js"
+    "static/js/main.807a4b35.chunk.js"
   ]
 }
