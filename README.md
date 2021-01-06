@@ -102,3 +102,17 @@ service cloud.firestore {
 # set some functions to filter abuse
 npm install -g firebase-tools
 firebase init functions
+
+# publish
+dependency --> npm install gh-pages --save-dev
+script --> "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+
+# deploy
+npm run deploy
